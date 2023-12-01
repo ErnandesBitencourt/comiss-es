@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 
 export const Listas= (props) => {
 
@@ -9,14 +7,35 @@ export const Listas= (props) => {
                  <option  >{listas}</option>     
             </>
             )
-    })
+    });
 
-    return Listas
+    return Listas;
 };
 
-export const ListasMoledoCarros = ({ModelosDeCarros,marcaCarro}) => {
+export const ListaMarcaDecarro = (props) => {
+    const modelosDeCarros = props.map((modelos) => {
+        return (
+            <>
+                <option key={modelos.id}>
+                    {modelos.marca}
+                </option>
+            </>
+        )
+    });
+    return modelosDeCarros;
+    
+};
 
-    const Listas = ModelosDeCarros.filter(listas => listas === marcaCarro)
-    console.log(Listas)
-
+export const ListaDeModelosDeCarros = ({marcaCarro,ModelosDeCarros}) => {
+    const modeloFiltrado = ModelosDeCarros.filter(modelos =>  marcaCarro === modelos.marca );
+    const modelosCarros = modeloFiltrado.map((carros) => {
+        return(
+            <>
+            <option key={carros.id} >
+                    {carros.modelo}
+                </option>
+            </>
+        )
+    });
+    return modelosCarros;
 };

@@ -1,241 +1,50 @@
 import { v4 as uuidv4 } from 'uuid';
 
-export const GmChevrolet = [
-    "A10",
-   " Agile",
-    "Astra",
-    "Blazer",
-    "Bolt",
-    "Camaro",
-   " Captiva",
-   " Celta",
-   " Chevette",
-    "Classic",
-   " Cobalt",
-    "Corsa",
-    "Corvette",
-    "Cruze",
-    "D20",
-   " Equinox",
-   " Joy",
-   " Kadett",
-    "Meriva",
-    "Montana",
-    "Monza",
-    "Omega",
-    "Onix",
-    "Onix Plus",
-    "Opala",
-    "Prisma",
-   " S10",
-    "Silverado",
-   " Sonic",
-   " Spin",
-   " Tracker",
-   " Trailblazer",
-   " Vectra",
-    "Zafira",
-   ];
-
-    export const Fiat = [
-        "Argo",
-        "Bravo",
-        "Cronos",
-        "Doblo",
-        "Ducato",
-        "Fastback",
-        "Fiorino",
-        "Freemont",
-        "GrandSiena",
-        "Idea",
-        "Linea",
-        "Marea",
-        "Mobi",
-        "Palio",
-        "Pulse",
-        "Punto",
-        "Siena",
-        "Stilo",
-        "Strada",
-        "Tempra",
-        "Toro",
-        "Uno"
-    ];
-
-    export const Volkswagen = [
-        "Amarok",
-        "Brasília",
-        "CrossFox",
-        "Fox",
-        "Fusca",
-        "Gol",
-        "Golf",
-        "ID3",
-        "ID7",
-        "IDBuzz",
-        "Jetta",
-        "Kombi",
-        "NewBeetle",
-        "Nivus",
-        "Parati",
-        "Passat",
-        "PassatVariant",
-        "Polo",
-        "Saveiro",
-        "SpaceFox",
-        "TCross",
-        "Taos",
-        "Tiguan",
-        "Touareg",
-        "Up",
-        "Virtus",
-        "Voyage"
-    ];
-
-    export const Hyundai= [
-        "Azera",
-        "Creta",
-        "Elantra",
-        "HB20",
-        "HB20S",
-        "HR",
-        "i30",
-        "Ioniq",
-        "ix35",
-        "Kona",
-        "SantaFe",
-        "Sonata",
-        "Tucson",
-        "Veloster",
-        "Veracruz" 
-    ];
-        
-    export const Toyota= [
-        "Bandeirante",
-        "Camry",
-        "Corolla",
-        "CorollaCross",
-        "Etios",
-       " Fielder",
-        "Hilux",
-        "LandCruiser",
-       " Prius",
-       "RAV4",
-       " SW4",
-        "Yaris"
-    ];
-
-    export const Audi = [ 
-            "A1",
-           " A3",
-            "A4",
-           " A5",
-            "e-Tron",
-           "Q8"
-    ];
-
-    export const Bmw = [
-        "iX",
-        "M2",
-        "M3",
-        "Série 1",
-        "Série 3",
-        "Série 5",
-        "X1",
-        "X2",
-        "X3",
-        "X4",
-        "X6",
-    ];
-
-    export const Ford =[
-        "Bronco",
-        "Corcel",
-        "Courier",
-        "EcoSport",
-        "Edge",
-        "F-150",
-        "F1000",
-        "F250",
-        "Fiesta",
-        "Focus",
-        "Fusion",
-        "Galaxie",
-        "Ka",
-        "Landau",
-        "Maverick Pickup",
-        "Mustang",
-        "Pampa",
-        "Ranger",
-        "Territory"
-    ];
-
-    export const Honda = [
-        "Accord",
-        "City",
-        "Civic",
-        "CR-V",
-        "Fit",
-        "HR-V",
-        "WR-V",
-        "ZR-V",
-    ];
-
-    export  const MercedesBenz = [
-        "CLA",
-        "Classe A",
-        "Classe C",
-        "GLA",
-        "GLB",
-        "GLC",
-        "Sprinter"
-    ];
-
-    export  const Mitsubishi = [
-        "ASX",
-       "Eclipse Cross",
-        "L200",
-        "Lancer",
-        "Pajero"
-    ];
-
-    export  const Nissan = [
-        "Altima",
-        "Frontier",
-        "Kicks",
-        "Leaf",
-        "Livina",
-        "March",
-        "Sentra",
-        "Tiida",
-        "Versa"
-    ];
-
-    export  const Kia  = [
-        "Carnival",
-        "Cerato",
-        "Picanto",
-        "Soul",
-        "Sportage",
-        "Stonic",
-    ];
-
-    export  const Peugeot  = [
-        "2008",
-        "206",
-        "207",
-        "208",
-        "3008",
-        "306",
-        "307",
-        "308",
-        "408",
-        "508",
-        "Expert",
-        "Hoggar",
-        "Partner"
-    ];
-
+export const Marcas = [
+    {   id: uuidv4(),
+        marca : "Gm-Chevrolet",
+    },
+    {   id: uuidv4(),
+        marca : "Fiat",
+    },
+    {   id: uuidv4(),
+        marca :"Volkswagen",
+    },
+    {   id: uuidv4(),
+        marca : "Hyundai",
+    },
+    {   id: uuidv4(),
+        marca :"Toyota" ,
+    },
+    {   id: uuidv4(),
+        marca : "Audi",
+    },
+    {   id: uuidv4(),
+        marca :"Bmw" ,
+    },
+    {   id: uuidv4(),
+        marca :"Ford" ,
+    },
+    {   id: uuidv4(),
+         marca : "Honda",
+    },
+    {   id: uuidv4(),
+        marca :" MercedesBenz" ,
+   },
+   {   id: uuidv4(),
+    marca :"Mitsubishi" ,
+},
+{   id: uuidv4(),
+    marca :"Nissan" ,
+},
+{   id: uuidv4(),
+    marca :"Kia" ,
+},
+{   id: uuidv4(),
+    marca :"Peugeot" ,
+},
+    
+];
 
 export const ModelosDeCarros = [
    {id: uuidv4(),
