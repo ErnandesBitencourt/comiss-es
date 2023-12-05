@@ -1,10 +1,10 @@
 
-export const Listas= (props) => {
+export const ListasVendedoresEServicos = (props) => {
 
     const Listas =  props.map(listas => {
             return (
            <>
-                 <option  >{listas}</option>     
+                 <option key={listas.id} >{listas.nome}</option>     
             </>
             )
     });
